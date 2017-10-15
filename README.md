@@ -160,15 +160,15 @@ See how to build this plot in the package vignette: [Building the fusion transcr
 `chimeraviz` is a Bioconductor package, and is most easily installed via Bioconductor. Please follow the installation instructions [here](https://bioconductor.org/packages/release/bioc/html/chimeraviz.html).
 
 If you want to build the package yourself you can follow these instructions:
-1. Install the dependencies listed under `Imports`, `Depends`, and `Suggests` in the [package DESCRIPTION file](https://github.com/stianlagstad/chimeraviz/blob/master/DESCRIPTION).
+1. Install the dependencies listed under `Imports`, `Depends`, and `Suggests` on the [chimeraviz Bioconductor page](https://bioconductor.org/packages/devel/bioc/html/chimeraviz.html).
 1. Run this command to install the package:
 ```
-devtools::install_github(
-  "stianlagstad/chimeraviz",
-  build_vignettes = TRUE)
+devtools::install_git("git@git.bioconductor.org:packages/chimeraviz")
 ```
 
 Please [create an issue on Github](https://github.com/stianlagstad/chimeraviz/issues) if you have any problems at all.
+
+Note that this repository on Github only exists to track issues - the source code can be found on Bioconductor.
 
 # Tests
 
