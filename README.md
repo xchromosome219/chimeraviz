@@ -1,6 +1,6 @@
 # chimeraviz
 
-`chimeraviz` is an R package that automates the creation of chimeric RNA visualizations.
+`chimeraviz` is an R package that automates the creation of chimeric RNA visualizations. This Github repository exists only to track issues and give a short introduction, please refer to the [chimeraviz Bioconductor page](https://bioconductor.org/packages/release/bioc/html/chimeraviz.html) for more detailed information and source code.
 
 # Demo
 
